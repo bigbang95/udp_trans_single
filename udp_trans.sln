@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "udp", "udp", "{4554AFFB-070B-41B4-ABAE-F3D99639B6D8}"
+	ProjectSection(SolutionItems) = preProject
+		udp\UdpClientSocket.cpp = udp\UdpClientSocket.cpp
+		udp\UdpClientSocket.h = udp\UdpClientSocket.h
+		udp\UdpServerSocket.cpp = udp\UdpServerSocket.cpp
+		udp\UdpServerSocket.h = udp\UdpServerSocket.h
+		udp\UdpSocket.cpp = udp\UdpSocket.cpp
+		udp\UdpSocket.h = udp\UdpSocket.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcxproj", "{3BF35F50-D622-4313-83E7-1A5ADF1A8647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log", "log", "{07B6E1E2-3D1F-4D8F-AF2D-3FF6A24E0F0E}"
+	ProjectSection(SolutionItems) = preProject
+		log\wLog.cpp = log\wLog.cpp
+		log\wLog.h = log\wLog.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}.Debug|x64.ActiveCfg = Debug|x64
+		{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}.Debug|x64.Build.0 = Debug|x64
+		{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}.Debug|x86.ActiveCfg = Debug|Win32
+		{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}.Debug|x86.Build.0 = Debug|Win32
+		{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}.Release|x64.ActiveCfg = Release|x64
+		{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}.Release|x64.Build.0 = Release|x64
+		{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}.Release|x86.ActiveCfg = Release|Win32
+		{E49D1E4C-3B61-4ACE-9885-2F74F8BCC2E7}.Release|x86.Build.0 = Release|Win32
+		{3BF35F50-D622-4313-83E7-1A5ADF1A8647}.Debug|x64.ActiveCfg = Debug|x64
+		{3BF35F50-D622-4313-83E7-1A5ADF1A8647}.Debug|x64.Build.0 = Debug|x64
+		{3BF35F50-D622-4313-83E7-1A5ADF1A8647}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BF35F50-D622-4313-83E7-1A5ADF1A8647}.Debug|x86.Build.0 = Debug|Win32
+		{3BF35F50-D622-4313-83E7-1A5ADF1A8647}.Release|x64.ActiveCfg = Release|x64
+		{3BF35F50-D622-4313-83E7-1A5ADF1A8647}.Release|x64.Build.0 = Release|x64
+		{3BF35F50-D622-4313-83E7-1A5ADF1A8647}.Release|x86.ActiveCfg = Release|Win32
+		{3BF35F50-D622-4313-83E7-1A5ADF1A8647}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89DB31CB-9F79-48D4-820C-6C455F513FCF}
+	EndGlobalSection
+EndGlobal
